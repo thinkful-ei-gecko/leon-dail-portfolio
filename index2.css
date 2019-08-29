@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: #ebebeb;
+}
+
+header { 
+  order: 1;
+  background-color: black;
+  font-family: 'Playfair Display', serif;
+  color: #ebebeb;
+  word-wrap: break-word;
+  width: 50px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 2.5em;
+  letter-spacing: 20px;
+  margin: 0;
+  padding: 0px 0px 0px 11px;
+}
+
+h1 span {
+  display: block;
+  margin-top: 60px;
+}
+.divider {
+  order: 2;
+  background-color: #8f8f8f;
+  width: 25px;
+}
+
+main {
+  order: 3;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.8em;
+  font-family: 'Asap', sans-serif;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#projects {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  background-color: #c4c4c4;
+  color: #7c7c7c;
+}
+
+h2.inactive {
+  padding-left: 20px;
+  font-weight: 300;
+}
+}
+h2 span {
+  margin-left: 15px;
+  font-size: 40px;
+}

@@ -1,0 +1,40 @@
+body {
+  background-color: #ebebeb;
+}
+
+h1 { 
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  font-weight: 500px;
+  text-align: center;
+  color: #ebebeb;
+  padding: 50px 0px;
+  margin: 0;
+  background-color: black;
+}
+
+span {
+  display: block;
+}
+
+h2 {
+  color: #343434;
+  background-color: #c8c8c8;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  font-family: 'Asap', sans-serif;
+  line-height: 1.8em;
+}
