@@ -7,3 +7,6 @@ I will include two .html files.
   -index2.html will be the second page.
 
   -The intent is that when you scroll down, the layout of the page changes, but is dynamically rendered. Because I'm only wireframing, I'm avoiding adding in all the javascript and simply making a separate .html page, but the current reload effect will be instead tied together by a smooth transition.
+
+  The Z on the index2.html page will be a hamburger menu for easier nav selection
+  The v on the index2.html page near the bottom will be a click link to the next section below.
