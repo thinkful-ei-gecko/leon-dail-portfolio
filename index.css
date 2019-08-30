@@ -47,9 +47,29 @@ li span {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   background-color: #ffe83d;
   height: 10px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  flex: 1;
+}
+
+main {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  align-content: center;
 }
