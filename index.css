@@ -1,5 +1,5 @@
 body {
-  background-color: #ebebeb;
+  background-color: #391f80;
 }
 
 h1 { 
@@ -7,10 +7,11 @@ h1 {
   font-size: 100px;
   font-weight: 500px;
   text-align: center;
-  color: #ebebeb;
+  color: #ffe83d;
   padding: 50px 0px;
   margin: 0;
-  background-color: black;
+  background-color: #391f80;
+  letter-spacing: 7oxl
 }
 
 span {
@@ -18,14 +19,14 @@ span {
 }
 
 h2 {
-  color: #343434;
-  background-color: #c8c8c8;
+  color: #d9d0ee;
+  background-color: #5d39f0;
   padding: 50px;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Asap', sans-serif;
   font-weight: 600;
   font-size: 35px;
+  font-family: 'Playfair Display', serif;
 }
 
 ul {
@@ -37,4 +38,18 @@ ul {
 li {
   font-family: 'Asap', sans-serif;
   line-height: 1.8em;
+  color: white;
+}
+
+li span {
+  display: inline;
+  margin: 0px 16px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffe83d;
+  height: 10px;
 }
