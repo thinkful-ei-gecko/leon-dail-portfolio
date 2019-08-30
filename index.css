@@ -2,7 +2,10 @@ body {
   background-color: #391f80;
 }
 
-h1 { 
+.bold {
+  font-weight: bold;
+}
+h1.first { 
   font-family: 'Playfair Display', serif;
   font-size: 100px;
   font-weight: 500px;
@@ -14,11 +17,11 @@ h1 {
   letter-spacing: 7oxl
 }
 
-span {
+span.first {
   display: block;
 }
 
-h2 {
+h2.first {
   color: #d9d0ee;
   background-color: #5d39f0;
   padding: 50px;
@@ -29,47 +32,139 @@ h2 {
   font-family: 'Playfair Display', serif;
 }
 
-ul {
+ul.first {
   list-style: none;
   padding: 0;
   text-align: center;
 }
 
-li {
+li.first {
   font-family: 'Asap', sans-serif;
   line-height: 1.8em;
   color: white;
 }
 
-li span {
+li span.first {
   display: inline;
   margin: 0px 16px;
 }
 
-footer {
+footer.first {
   width: 100%;
   background-color: #ffe83d;
-  height: 10px;
+  height: 20px;
 }
 
-body {
+body.first {
+  display: flex;
+  min-height: 101vh;
+  flex-direction: column;
+}
+
+header.first {
+  flex: 1;
+}
+
+main.first {
+  flex: 1;
+}
+
+div.first {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+nav.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+
+.display-none {
+  display: none;
+}
+
+/* -------------------------------
+second page = bio
+--------------------------------*/
+
+body.second {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-header {
-  flex: 1;
-}
-
-main {
-  flex: 1;
-}
-
-nav {
+div.rowcontent.second {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  min-height: 102vh;
+  background-color: white;
+}
+
+header.second {
+  display: flex;
+}
+
+header h1.second {
+  background-color: #391f80;
+  font-family: 'Playfair Display', serif;
+  color: #ebebeb;
+  word-wrap: break-word;
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: 20px;
+  margin: 10px 0 0 0;
+  padding: 0px 0px 0px 11px;
+}
+
+h1.second span {
+  display: block;
+  margin-top: 50px;
+}
+header h2.second {
+  width: 25px;
+  background-color: #5e3dff;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  transition: 0.3s all;
+}
+
+/* .hamburger {
+  background-image: url('ham.png');
+  background-repeat: no-repeat;
+  width: 30px;
+  display: block;
+  size: 100%;
+} */
+
+main {
+  font-family: 'Asap', sans-serif;
+  line-height: 1.8em;
+}
+
+main.second {
+  margin-top: 20px;
+  background-color: white;
   flex: 1;
-  align-content: center;
+  color: #391f80;
+  width: 100%;
+}
+
+main h3 {
+  background-color: #ffe83d;
+  padding: 10px 20px;
+  font-size: 40px;
+}
+
+main p {
+  padding-left: 20px;
+  padding-right: 20px;
 }
